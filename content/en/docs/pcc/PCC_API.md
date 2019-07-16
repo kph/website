@@ -107,194 +107,194 @@ Add an inventory to DB.
 {
     "bus": {
         "bmc": {
-            "businfo": "pci@0000:00:1f.3", 
+            "businfo": "pci@0000:00:1f.3",
             "ipcfg": {
-                "gateway-hwaddr": "10:0e:7e:fd:ec:88", 
-                "gateway-ipaddr": "192.168.101.2", 
-                "hwaddr": "0c:c4:7a:36:b8:2f", 
-                "ipaddress": "192.168.101.224", 
-                "netmask": "255.255.255.0", 
+                "gateway-hwaddr": "10:0e:7e:fd:ec:88",
+                "gateway-ipaddr": "192.168.101.2",
+                "hwaddr": "0c:c4:7a:36:b8:2f",
+                "ipaddress": "192.168.101.224",
+                "netmask": "255.255.255.0",
                 "source": "ipmi"
-            }, 
-            "name": "bmc", 
-            "product": "C600/X79 series chipset SMBus Host Controller", 
-            "type": "bmc", 
+            },
+            "name": "bmc",
+            "product": "C600/X79 series chipset SMBus Host Controller",
+            "type": "bmc",
             "users": [
                 {
-                    "id": "2", 
-                    "ipmirole": "Unknown (0x00)", 
+                    "id": "2",
+                    "ipmirole": "Unknown (0x00)",
                     "username": "ADMIN"
-                }, 
+                },
                 {
-                    "id": "3", 
-                    "ipmirole": "Unknown (0x00)", 
+                    "id": "3",
+                    "ipmirole": "Unknown (0x00)",
                     "username": "readonly"
-                }, 
+                },
                 {
-                    "id": "4", 
-                    "ipmirole": "Unknown (0x00)", 
+                    "id": "4",
+                    "ipmirole": "Unknown (0x00)",
                     "username": "root"
-                }, 
+                },
                 {
-                    "id": "5", 
-                    "ipmirole": "ADMINISTRATOR", 
+                    "id": "5",
+                    "ipmirole": "ADMINISTRATOR",
                     "username": "test"
                 }
-            ], 
+            ],
             "vendor": "Intel Corporation"
         }
-    }, 
+    },
     "memory": {
         "DMI:002E": {
-            "description": "DIMM DDR3 1333 MHz (0.8 ns)", 
-            "name": "DMI:002E", 
+            "description": "DIMM DDR3 1333 MHz (0.8 ns)",
+            "name": "DMI:002E",
             "size": {
-                "unit": "bytes", 
+                "unit": "bytes",
                 "value": "4294967296"
-            }, 
+            },
             "type": "memory"
-        }, 
+        },
         "DMI:0030": {
-            "description": "DIMM DDR3 1333 MHz (0.8 ns)", 
-            "name": "DMI:0030", 
+            "description": "DIMM DDR3 1333 MHz (0.8 ns)",
+            "name": "DMI:0030",
             "size": {
-                "unit": "bytes", 
+                "unit": "bytes",
                 "value": "4294967296"
-            }, 
+            },
             "type": "memory"
-        }, 
+        },
         "DMI:0038": {
-            "description": "DIMM DDR3 1333 MHz (0.8 ns)", 
-            "name": "DMI:0038", 
+            "description": "DIMM DDR3 1333 MHz (0.8 ns)",
+            "name": "DMI:0038",
             "size": {
-                "unit": "bytes", 
+                "unit": "bytes",
                 "value": "4294967296"
-            }, 
+            },
             "type": "memory"
-        }, 
+        },
         "DMI:003A": {
-            "description": "DIMM DDR3 1333 MHz (0.8 ns)", 
-            "name": "DMI:003A", 
+            "description": "DIMM DDR3 1333 MHz (0.8 ns)",
+            "name": "DMI:003A",
             "size": {
-                "unit": "bytes", 
+                "unit": "bytes",
                 "value": "4294967296"
-            }, 
+            },
             "type": "memory"
         }
-    }, 
+    },
     "network": {
         "eth0": {
-            "businfo": "pci@0000:05:00.0", 
-            "description": "Ethernet interface", 
-            "driver": "igb", 
-            "hwaddr": "0c:c4:7a:33:7a:c6", 
-            "link": "yes", 
-            "name": "eth0", 
+            "businfo": "pci@0000:05:00.0",
+            "description": "Ethernet interface",
+            "driver": "igb",
+            "hwaddr": "0c:c4:7a:33:7a:c6",
+            "link": "yes",
+            "name": "eth0",
             "peer": {
-                "discover-method": "lldp", 
-                "mgmt-ip": "192.168.101.224", 
-                "mgmt-mac": "0c:c4:7a:36:b8:2f", 
-                "peername": "eth0", 
+                "discover-method": "lldp",
+                "mgmt-ip": "192.168.101.224",
+                "mgmt-mac": "0c:c4:7a:36:b8:2f",
+                "peername": "eth0",
                 "sysname": "(none).(none)"
-            }, 
-            "product": "I350 Gigabit Network Connection", 
-            "size": "1000000000 bit/s", 
-            "speed": "1Gbit/s", 
-            "type": "network", 
+            },
+            "product": "I350 Gigabit Network Connection",
+            "size": "1000000000 bit/s",
+            "speed": "1Gbit/s",
+            "type": "network",
             "vendor": "Intel Corporation"
-        }, 
+        },
         "eth1": {
-            "businfo": "pci@0000:05:00.1", 
-            "description": "Ethernet interface", 
-            "driver": "igb", 
-            "hwaddr": "0c:c4:7a:33:7a:c7", 
-            "link": "no", 
-            "name": "eth1", 
-            "product": "I350 Gigabit Network Connection", 
-            "type": "network", 
+            "businfo": "pci@0000:05:00.1",
+            "description": "Ethernet interface",
+            "driver": "igb",
+            "hwaddr": "0c:c4:7a:33:7a:c7",
+            "link": "no",
+            "name": "eth1",
+            "product": "I350 Gigabit Network Connection",
+            "type": "network",
             "vendor": "Intel Corporation"
-        }, 
+        },
         "eth2": {
-            "businfo": "pci@0000:82:00.0", 
-            "description": "Ethernet interface", 
-            "driver": "mlx5_core", 
-            "hwaddr": "ec:0d:9a:92:b2:4e", 
-            "link": "yes", 
-            "name": "eth2", 
+            "businfo": "pci@0000:82:00.0",
+            "description": "Ethernet interface",
+            "driver": "mlx5_core",
+            "hwaddr": "ec:0d:9a:92:b2:4e",
+            "link": "yes",
+            "name": "eth2",
             "peer": {
-                "discover-method": "lldp", 
-                "mgmt-ip": "192.168.101.142", 
-                "mgmt-mac": "6c:ec:5a:07:cb:db", 
-                "peermac": "6c:ec:5a:07:cb:fd", 
-                "peername": "xeth32", 
+                "discover-method": "lldp",
+                "mgmt-ip": "192.168.101.142",
+                "mgmt-mac": "6c:ec:5a:07:cb:db",
+                "peermac": "6c:ec:5a:07:cb:fd",
+                "peername": "xeth32",
                 "sysname": "invader22.platinasystems.com"
-            }, 
-            "product": "MT27800 Family [ConnectX-5]", 
-            "type": "network", 
+            },
+            "product": "MT27800 Family [ConnectX-5]",
+            "type": "network",
             "vendor": "Mellanox Technologies"
         }
-    }, 
+    },
     "processor": {
         "cpu:0": {
-            "cores": "6", 
-            "name": "cpu:0", 
-            "product": "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz", 
+            "cores": "6",
+            "name": "cpu:0",
+            "product": "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz",
             "size": {
-                "unit": "Hz", 
+                "unit": "Hz",
                 "value": "2065724000"
-            }, 
+            },
             "type": "cpu"
-        }, 
+        },
         "cpu:1": {
-            "cores": "6", 
-            "name": "cpu:1", 
-            "product": "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz", 
+            "cores": "6",
+            "name": "cpu:1",
+            "product": "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz",
             "size": {
-                "unit": "Hz", 
+                "unit": "Hz",
                 "value": "2040483000"
-            }, 
+            },
             "type": "cpu"
         }
-    }, 
+    },
     "storage": {
         "storage-PCI:0000:00:1f.2": {
             "block-devices": [
                 {
                     "sda": {
-                        "model": "WDC WD10EZRZ-00H", 
-                        "name": "sda", 
-                        "size": "1953525168", 
-                        "vendor": "ATA     ", 
+                        "model": "WDC WD10EZRZ-00H",
+                        "name": "sda",
+                        "size": "1953525168",
+                        "vendor": "ATA     ",
                         "wwid": "t10.ATA_____WDC_WD10EZRZ-00HTKB0_________________________WD-WCC4J7YHE4Z5"
                     }
                 }
-            ], 
-            "businfo": "pci@0000:00:1f.2", 
-            "driver": "ahci", 
-            "name": "storage-PCI:0000:00:1f.2", 
-            "product": "C600/X79 series chipset 6-Port SATA AHCI Controller", 
-            "type": "storage", 
+            ],
+            "businfo": "pci@0000:00:1f.2",
+            "driver": "ahci",
+            "name": "storage-PCI:0000:00:1f.2",
+            "product": "C600/X79 series chipset 6-Port SATA AHCI Controller",
+            "type": "storage",
             "vendor": "Intel Corporation"
-        }, 
+        },
         "storage-PCI:0000:04:00.0": {
-            "businfo": "pci@0000:04:00.0", 
-            "driver": "isci", 
-            "name": "storage-PCI:0000:04:00.0", 
-            "product": "C602 chipset 4-Port SATA Storage Control Unit", 
-            "type": "storage", 
+            "businfo": "pci@0000:04:00.0",
+            "driver": "isci",
+            "name": "storage-PCI:0000:04:00.0",
+            "product": "C602 chipset 4-Port SATA Storage Control Unit",
+            "type": "storage",
             "vendor": "Intel Corporation"
         }
-    }, 
+    },
     "system": {
         "system": {
-            "model": "SYS-6017R-TDLR-BK0-LC019 (To be filled by O.E.M.)", 
-            "name": "system", 
-            "serial": "S15792125211186", 
-            "type": "node", 
-            "uuid": "00000000-0000-0000-0000-0CC47A337AC6", 
+            "model": "SYS-6017R-TDLR-BK0-LC019 (To be filled by O.E.M.)",
+            "name": "system",
+            "serial": "S15792125211186",
+            "type": "node",
+            "uuid": "00000000-0000-0000-0000-0CC47A337AC6",
             "vendor": "Supermicro"
         }
-    }, 
+    },
     "version": "1.0",
    "createNode": true
 }
@@ -2904,7 +2904,7 @@ NOTE: optional in brown. bmcPassword and bmcKey can be exclusive
 
 #### Response
 ```JSONasPython
-{ 
+{
   "path": "/cluster/3",
   "status": 200,
   "message": "",
@@ -3789,7 +3789,7 @@ Delete an inventory from node.
 </table>
 
 
-### Get Kubernetes Info 
+### Get Kubernetes Info
 
 Retrieve info about kubernetes from server ( available versions, cluster roles policy ecc )
 
@@ -3841,7 +3841,7 @@ curl -k  -X POST -H "Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pb
 
 #### Request Body
 
-With **auto **policy:
+With **auto**policy:
 ```JSONasPython
 {
   "name":"Cluster01",
@@ -3854,20 +3854,20 @@ With **auto **policy:
 	{
   	"id": 2
 	},
-	{  
+	{
   	"id": 3
 	},
-	{  
+	{
   	"id": 4
 	},
-	{  
+	{
   	"id": 5
 	}
   ]
 }
 ```
 
-With **custom **policy:
+With **custom**policy:
 ```JSONasPython
 {
   "name":"Cluster02",
@@ -3884,17 +3884,17 @@ With **custom **policy:
   	"id": 2,
   	"roles": ["master"]
 	},
-	{  
+	{
   	"id": 3,
   	"roles": ["worker"],
   	"etcd": false
 	},
-	{  
+	{
   	"id": 4,
   	"roles": ["worker"],
   	"etcd": true
 	},
-	{  
+	{
   	"id": 10,
   	"roles": ["worker"]  ,
   	"etcd": true
@@ -3924,12 +3924,12 @@ curl -k -H "Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cC
 
 #### Request URL [paginated]
 
-**GET** 
+**GET**
 
 http://127.0.0.1:8080/kubernetes?page=0&limit=1&search=cni_plugin:kube-router
 
 
-#### Response 
+#### Response
 
 Ansible Parameter
 
@@ -4096,9 +4096,9 @@ curl -k -H "Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cC
 
 #### Request URL
 
-**GET **
+**GET**
 
-http://127.0.0.1:8080/kubernetes/1 
+http://127.0.0.1:8080/kubernetes/1
 
 #### Response
 
@@ -4214,7 +4214,7 @@ http://127.0.0.1:8080/kubernetes/1
 
 #### Request Body
 
-With **auto **policy:
+With **auto**policy:
 ```
 {
   "rolePolicy":"auto",
@@ -4644,5 +4644,3 @@ GET https://172.17.2.47:9999/pccserver/ansible/history?target=kubernetes.cluster
   ]
 }
 ```
-
-

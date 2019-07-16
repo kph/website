@@ -1785,7 +1785,7 @@ List of discovered nodes not yet added.
 ```
 **NOTE**: if the ready field is false, the node need to update info, such as bmcPassword.
 
-**NOTE2**: the node has **interfaces**. An interface can be **custom**. In this case it was added by the customer using the endpoint [/interface/](#heading=h.bl9ibyorixnz). If **custom** is not defined the interface was not added by the user. A **custom interface **can be ready. If ready is true the custom interface was already added to node, otherwise it will be add when the node become online/run. **This call returns only non ready custom interfaces **(in addition to already running interfaces).
+**NOTE2**: the node has **interfaces**. An interface can be **custom**. In this case it was added by the customer using the endpoint [/interface/](#heading=h.bl9ibyorixnz). If **custom** is not defined the interface was not added by the user. A **custom interface** can be ready. If ready is true the custom interface was already added to node, otherwise it will be add when the node become online/run. **This call returns only non ready custom interfaces** (in addition to already running interfaces).
 
 ### Get Nodes
 
